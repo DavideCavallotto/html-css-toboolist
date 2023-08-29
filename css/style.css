@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+}
+
+.main-header {
+    padding: 30px;
+    background-color: white;
+}
+
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.logo {
+    max-width: 100%;
+    width: 80px;
+    vertical-align: -22px;
+}
+
+.name-article {
+    display: inline;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+body {
+    background-color: #F6F8F9;
+}
+.blue-bottom {
+    color: white;
+    background-color: #47ADF1;
+    font-size: 22px;
+    background-size: 20px 20px;
+    border-radius: 4px;
+}
