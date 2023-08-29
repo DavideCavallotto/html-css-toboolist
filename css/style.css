@@ -13,6 +13,7 @@
 .container {
     max-width: 980px;
     margin: 0 auto;
+    margin-top: 100px;
 }
 
 .logo {
@@ -30,10 +31,115 @@
 body {
     background-color: #F6F8F9;
 }
-.blue-bottom {
+
+
+.blue-main-bottom {
+    display: inline-block;
+    width: 120px;
+    height: 40px;
     color: white;
     background-color: #47ADF1;
-    font-size: 22px;
-    background-size: 20px 20px;
-    border-radius: 4px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-right: 6px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.white-main-bottom {
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    color: rgb(123, 123, 123);    
+    font-size: 18px;
+    border: 1px solid rgb(123, 123, 123);
+    border-radius: 10px;
+    margin-right: 6px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.line-bottom{    
+    background-color: white;
+    height: 100px;
+    width: 1200px;
+    border-radius: 10px;    
+    padding: 30px 60px; 
+    margin-bottom: 3px; 
+
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.check-list {
+    background-color: white;
+    width: 1200px;
+    border-radius: 10px;
+    padding: 60px;
+    font-size: 20px;
+    
+}
+
+.list {
+    margin-bottom: 15px;
+}
+
+.bottom {
+    display: inline-block;
+    width: 70px;
+    height: 30px;
+    color: white;
+    background-color: #47ADF1;
+    font-size: 12px;
+    border-radius: 10px;
+    margin-right: 6px;
+    text-align: center;
+    line-height: 30px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.violet-list-bottom {
+    background-color: rgb(186, 70, 186);
+}
+
+.green-list-bottom {
+    background-color: green;
+}
+
+.orange-list-bottom {
+    background-color: orange;
+}
+
+.pink-list-bottom {
+    background-color: pink;
+}
+
+.lime-list-bottom {
+    background-color: lime;
+}
+
+.green-check {   
+    border: 1px solid green;
+    color: green;        
+}
+
+.red-cross {    
+    border: 1px solid red;
+    color: red;        
+}
+
+.circle {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 24px;
+    margin-right: 10px;   
+    
 }
